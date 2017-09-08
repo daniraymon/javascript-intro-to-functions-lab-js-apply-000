@@ -1,7 +1,8 @@
 
-function shout(string) {
+describe('shout(string)', function() {
   return string.toUpperCase();
-}
+  })
+})
 
 describe('whisper(string)', function() {
   it('receives one argument and returns it in all lowercase', function() {
